@@ -39,7 +39,7 @@ nav {
 }
 
 .landing h1 {
-    margin: 100px;
+    margin: 50px;
     font-size: 50px;
     color: #ae5fce;
 }
@@ -61,6 +61,7 @@ nav {
         right: 5%;
         top: 30px;
         transform: translate(-5%, -50%);
+        z-index: 2;
     }
 
     .nav-links {
@@ -73,15 +74,20 @@ nav {
         clip-path: circle(100px at 90% -10%);
         --webkit-clip-path: circle(100px at 90% -10%);
         transition: all  1s ease-out;
+        pointer-events: none;
     }
 
     .nav-links.open {
         clip-path: circle(1000px at 90% -10%);
         --webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
     }
 
     .landing {
         flex-direction: column;
-        
+    }
+
+    .nav-links li{  
+        opacity: 1;
     }
 }
