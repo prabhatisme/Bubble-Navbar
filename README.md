@@ -1,7 +1,7 @@
 
 # Bubble Animation Navbar
 
-A custom beautiful animated navigation bar made with CSS, HTMl.
+A custom beautiful animated navigation bar made with CSS, HTMl, Javascript.
 
 
 
