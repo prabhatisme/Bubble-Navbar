@@ -1,5 +1,5 @@
 
-# Bubble Animation Navbar
+# Bubble Circle Animation Navbar
 
 A custom beautiful animated navigation bar made with CSS, HTMl, Javascript.
 
@@ -8,7 +8,7 @@ A custom beautiful animated navigation bar made with CSS, HTMl, Javascript.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](Screenshot.gif)
 
   
 ## License
